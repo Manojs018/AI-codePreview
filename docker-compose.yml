@@ -1,0 +1,260 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: timescale/timescaledb:latest-pg15
+    container_name: ai-review-postgres
+    environment:
+      POSTGRES_DB: ai_code_review
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres_dev_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./scripts/init-db.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - ai-review-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: ai-review-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - ai-review-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  # RabbitMQ Message Queue
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: ai-review-rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: admin
+      RABBITMQ_DEFAULT_PASS: admin_dev_password
+    ports:
+      - "5672:5672"   # AMQP port
+      - "15672:15672" # Management UI
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    networks:
+      - ai-review-network
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # API Gateway
+  api-gateway:
+    build:
+      context: ./services/api-gateway
+      dockerfile: Dockerfile
+    container_name: ai-review-gateway
+    environment:
+      NODE_ENV: development
+      PORT: 3000
+      DATABASE_URL: postgresql://postgres:postgres_dev_password@postgres:5432/ai_code_review
+      REDIS_URL: redis://redis:6379
+      JWT_SECRET: your-jwt-secret-change-in-production
+      GITHUB_CLIENT_ID: ${GITHUB_CLIENT_ID}
+      GITHUB_CLIENT_SECRET: ${GITHUB_CLIENT_SECRET}
+      GITHUB_CALLBACK_URL: http://localhost:3000/api/auth/github/callback
+    ports:
+      - "3000:3000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
+    networks:
+      - ai-review-network
+    volumes:
+      - ./services/api-gateway:/app
+      - /app/node_modules
+
+  # Authentication Service
+  auth-service:
+    build:
+      context: ./services/auth-service
+      dockerfile: Dockerfile
+    container_name: ai-review-auth
+    environment:
+      NODE_ENV: development
+      PORT: 3001
+      DATABASE_URL: postgresql://postgres:postgres_dev_password@postgres:5432/ai_code_review
+      REDIS_URL: redis://redis:6379
+      JWT_SECRET: your-jwt-secret-change-in-production
+      GITHUB_CLIENT_ID: ${GITHUB_CLIENT_ID}
+      GITHUB_CLIENT_SECRET: ${GITHUB_CLIENT_SECRET}
+    ports:
+      - "3001:3001"
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - ai-review-network
+    volumes:
+      - ./services/auth-service:/app
+      - /app/node_modules
+
+  # GitHub Integration Service
+  github-service:
+    build:
+      context: ./services/github-service
+      dockerfile: Dockerfile
+    container_name: ai-review-github
+    environment:
+      NODE_ENV: development
+      PORT: 3002
+      DATABASE_URL: postgresql://postgres:postgres_dev_password@postgres:5432/ai_code_review
+      RABBITMQ_URL: amqp://admin:admin_dev_password@rabbitmq:5672
+      WEBHOOK_SECRET: ${WEBHOOK_SECRET}
+    ports:
+      - "3002:3002"
+    depends_on:
+      - postgres
+      - rabbitmq
+    networks:
+      - ai-review-network
+    volumes:
+      - ./services/github-service:/app
+      - /app/node_modules
+
+  # Code Analysis Service
+  code-analysis:
+    build:
+      context: ./services/code-analysis
+      dockerfile: Dockerfile
+    container_name: ai-review-analysis
+    environment:
+      NODE_ENV: development
+      PORT: 3003
+      DATABASE_URL: postgresql://postgres:postgres_dev_password@postgres:5432/ai_code_review
+      RABBITMQ_URL: amqp://admin:admin_dev_password@rabbitmq:5672
+      REDIS_URL: redis://redis:6379
+    ports:
+      - "3003:3003"
+    depends_on:
+      - postgres
+      - rabbitmq
+      - redis
+    networks:
+      - ai-review-network
+    volumes:
+      - ./services/code-analysis:/app
+      - /app/node_modules
+
+  # AI Review Engine
+  ai-review:
+    build:
+      context: ./services/ai-review
+      dockerfile: Dockerfile
+    container_name: ai-review-ai
+    environment:
+      NODE_ENV: development
+      PORT: 3004
+      DATABASE_URL: postgresql://postgres:postgres_dev_password@postgres:5432/ai_code_review
+      RABBITMQ_URL: amqp://admin:admin_dev_password@rabbitmq:5672
+      REDIS_URL: redis://redis:6379
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+    ports:
+      - "3004:3004"
+    depends_on:
+      - postgres
+      - rabbitmq
+      - redis
+    networks:
+      - ai-review-network
+    volumes:
+      - ./services/ai-review:/app
+      - /app/node_modules
+    deploy:
+      replicas: 3  # Run 3 AI workers for parallel processing
+
+  # Feedback Publisher Service
+  feedback-publisher:
+    build:
+      context: ./services/feedback-publisher
+      dockerfile: Dockerfile
+    container_name: ai-review-feedback
+    environment:
+      NODE_ENV: development
+      PORT: 3005
+      DATABASE_URL: postgresql://postgres:postgres_dev_password@postgres:5432/ai_code_review
+      RABBITMQ_URL: amqp://admin:admin_dev_password@rabbitmq:5672
+    ports:
+      - "3005:3005"
+    depends_on:
+      - postgres
+      - rabbitmq
+    networks:
+      - ai-review-network
+    volumes:
+      - ./services/feedback-publisher:/app
+      - /app/node_modules
+
+  # Analytics Service
+  analytics:
+    build:
+      context: ./services/analytics
+      dockerfile: Dockerfile
+    container_name: ai-review-analytics
+    environment:
+      NODE_ENV: development
+      PORT: 3006
+      DATABASE_URL: postgresql://postgres:postgres_dev_password@postgres:5432/ai_code_review
+      REDIS_URL: redis://redis:6379
+    ports:
+      - "3006:3006"
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - ai-review-network
+    volumes:
+      - ./services/analytics:/app
+      - /app/node_modules
+
+  # Frontend React Application
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: ai-review-frontend
+    environment:
+      REACT_APP_API_URL: http://localhost:3000
+      REACT_APP_WS_URL: ws://localhost:3000
+    ports:
+      - "3001:3000"
+    depends_on:
+      - api-gateway
+    networks:
+      - ai-review-network
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+
+volumes:
+  postgres_data:
+  redis_data:
+  rabbitmq_data:
+
+networks:
+  ai-review-network:
+    driver: bridge

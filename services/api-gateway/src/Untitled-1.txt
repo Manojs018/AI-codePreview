@@ -1,0 +1,399 @@
+[Creative Tim](https://www.creative-tim.com/)
+[AI Employees
+            Specialized experts in Business Growth, SEO, Data Analysis, Email, Social Media and Customer Support.](https://www.galichat.com/ai-employees)
+
+### AI Employees
+Specialized experts in Business Growth, SEO, Data Analysis, Email, Social Media and Customer Support.
+[AI Agents for Support and Lead Generation
+            Deploy intelligent AI agents trained on your knowledge base.](https://www.galichat.com/)
+
+### AI Agents for Support and Lead Generation
+Deploy intelligent AI agents trained on your knowledge base.
+[Discover & Publish AI Agents
+            Discover and publish your own AI Agents to the community. Great for sharing your expertise and services.](https://www.galichat.com/discover)
+
+### Discover & Publish AI Agents
+Discover and publish your own AI Agents to the community. Great for sharing your expertise and services.
+[View All AI Agents →](https://www.galichat.com/)
+[Web3 Collection
+            blocks](https://www.creative-tim.com/ui/blocks/web3-collection)
+
+### Web3 Collection
+[Application Admin
+            blocks](https://www.creative-tim.com/ui/blocks/application-admin)
+
+### Application Admin
+[Marketing Presentation
+            blocks](https://www.creative-tim.com/ui/blocks/marketing-presentation)
+
+### Marketing Presentation
+[Content UI
+            blocks](https://www.creative-tim.com/ui/blocks/content-ui)
+
+### Content UI
+[Ecommerce UI
+            blocks](https://www.creative-tim.com/ui/blocks/ecommerce-ui)
+
+### Ecommerce UI
+[AI Agents
+            blocks](https://www.creative-tim.com/ui/blocks/ai-agents)
+
+### AI Agents
+[View All UI →](https://www.creative-tim.com/ui/blocks)
+[Creative Tim UI - shadcn Blocks
+            Seamlessly integrate with v0, Lovable, Replit, and other AI platforms. Reduce token usage and save money with our CLI and MCP support.](https://www.creative-tim.com/ui/)
+
+### Creative Tim UI - shadcn Blocks
+Seamlessly integrate with v0, Lovable, Replit, and other AI platforms. Reduce token usage and save money with our CLI and MCP support.
+[Material Tailwind PRO - Tailwind CSS Blocks
+            Build sleek UIs and complex systems with tools that provide everything you need to accelerate your workflow: both code and design-ready.](https://www.material-tailwind.com/v3/pro)
+
+### Material Tailwind PRO - Tailwind CSS Blocks
+Build sleek UIs and complex systems with tools that provide everything you need to accelerate your workflow: both code and design-ready.
+[Creative Tim Club - 130+ Premium Templates
+            Access 130+ premium templates and dashboards for React, Vue, HTML, Bootstrap, Angular, and more. Everything you need for your next project.](https://www.creative-tim.com/)
+
+### Creative Tim Club - 130+ Premium Templates
+Access 130+ premium templates and dashboards for React, Vue, HTML, Bootstrap, Angular, and more. Everything you need for your next project.
+[n8n Workflow Templates Collection
+            Supercharge Your Business Automation with Ready-to-Use Workflows!](https://www.creative-tim.com/product/n8n-workflow-templates-collection)
+
+### n8n Workflow Templates Collection
+Supercharge Your Business Automation with Ready-to-Use Workflows!
+[Creative AI Pixels
+            Generate visual assets, illustrations, and marketing materials with AI-powered design tools.](https://www.creative-tim.com/)
+
+### Creative AI Pixels
+
+Generate visual assets, illustrations, and marketing materials with AI-powered design tools.
+[View All Products →](https://www.creative-tim.com/home#platform-capabilities)
+[Marketplace](https://www.creative-tim.com/marketplace)
+[Search...
+                Search...
+
+
+                    ⌘
+
+
+                    K](https://www.creative-tim.com/product/argon-design-system-react#search-modal)
+[Blog](https://www.creative-tim.com/blog)
+[Pricing](https://www.creative-tim.com/#pricing)
+[Login/Register](javascript:;)
+[Search](https://www.creative-tim.com/product/argon-design-system-react#search-modal)
+[AI Employees](https://www.galichat.com/ai-employees)
+[AI Agents for Support and Lead Generation](https://www.galichat.com/)
+[Discover & Publish AI Agents](https://www.galichat.com/discover)
+[View All AI Agents →](https://www.galichat.com/)
+[Web3 Collection](https://www.creative-tim.com/ui/blocks/web3-collection)
+[Application Admin](https://www.creative-tim.com/ui/blocks/application-admin)
+[Marketing Presentation](https://www.creative-tim.com/ui/blocks/marketing-presentation)
+[Content UI](https://www.creative-tim.com/ui/blocks/content-ui)
+[Ecommerce UI](https://www.creative-tim.com/ui/blocks/ecommerce-ui)
+[AI Agents](https://www.creative-tim.com/ui/blocks/ai-agents)
+[View All UI →](https://www.creative-tim.com/ui/blocks)
+[Creative Tim UI - shadcn Blocks](https://www.creative-tim.com/ui/)
+[Material Tailwind PRO](https://www.material-tailwind.com/v3/pro)
+[Creative Tim Club](https://www.creative-tim.com/club)
+[n8n Workflow Templates](https://www.creative-tim.com/product/n8n-workflow-templates-collection)
+[Creative AI Pixels](https://www.creative-tim.com/ai/pixels)
+[View All Products →](https://www.creative-tim.com/home#platform-capabilities)
+[Marketplace](https://www.creative-tim.com/marketplace)
+[Blog](https://www.creative-tim.com/blog)
+[Pricing](https://www.creative-tim.com?scroll=pricing)
+[Login/Register](javascript:;)
+[Live Preview](https://demos.creative-tim.com/argon-design-system-react/#/)
+[Live Preview](https://demos.creative-tim.com/argon-design-system-react/#/)
+[Docs](https://demos.creative-tim.com/argon-design-system-react/#/documentation/overview)
+[Creative Tim Club
+  🔥 Access to all our current and future products](https://www.creative-tim.com/club?ref=ct-info)
+
+### Free Design System For Bootstrap 4 (reactstrap)
+[(79 Reviews)](https://www.creative-tim.com/product/argon-design-system-react/reviews)
+MIT License https://github.com/timcreative/freebies/blob/master/LICENSE.md
+
+### Free Design System For Bootstrap 4, React and Reactstrap
+#### Product description
+Start your development with a Design System for [Bootstrap 4](https://getbootstrap.com/?ref=creativetim), [React](https://reactjs.org/?ref=creativetim) and [Reactstrap](https://reactstrap.github.io/?ref=creativetim). It is open source, free and it features many components that can help you create amazing websites.
+Fully Coded Components
+Argon Design System React is built with over 100 individual components, giving you the freedom of choosing and combining. All components can take variations in color, that you can easily modify using SASS files.
+You will save a lot of time going from prototyping to full-functional code, because all elements are implemented. This Design System is coming with prebuilt examples, so the development process is seamless, switching from our pages to the real website is very easy to be done.
+Every element has multiple states for colors, styles, hover, focus, that you can easily access and use.
+View [all components here](https://demos.creative-tim.com/argon-design-system-react/#/?ref=creativetim).
+Complex Documentation
+Each element is well presented in a very complex documentation. You can read more about the [idea behind this design system here](https://demos.creative-tim.com/argon-design-system-react/#/documentation/overview?ref=creativetim). You can [check the components here](https://demos.creative-tim.com/argon-design-system-react/#/documentation/alert?ref=creativetim) and [he foundation here](https://demos.creative-tim.com/argon-design-system-react/#/documentation/colors?ref=creativetim).
+Example Pages
+If you want to get inspiration or just show something directly to your clients, you can jump start your development with our pre-built example pages. You will be able to quickly set up the basic structure for your web project.
+View [example pages here](https://demos.creative-tim.com/argon-design-system-react/#/landing-page?ref=creativetim).
+
+###### Product certified by: Creative Tim
+- 
+                           [Details](https://www.creative-tim.com/product/argon-design-system-react#home)
+
+- [Product Info](https://www.creative-tim.com/product/argon-design-system-react#profile)
+
+[Details](https://www.creative-tim.com/product/argon-design-system-react#home)
+[Product Info](https://www.creative-tim.com/product/argon-design-system-react#profile)
+
+###### 29,458
+
+###### 1.1.2
+
+###### [view](https://github.com/creativetimofficial/argon-design-system-react/blob/master/CHANGELOG.md)
+[view](https://github.com/creativetimofficial/argon-design-system-react/blob/master/CHANGELOG.md)
+
+###### 2 years ago
+
+###### 6 years ago
+[See 79 Reviews](https://www.creative-tim.com/product/argon-design-system-react/reviews)
+[Star](https://github.com/creativetimofficial/argon-design-system-react)
+
+###### 100
+
+###### 3
+
+###### 4
+
+## Unlock the Full Power of the Creative Tim Ecosystem
+
+One subscription to design pixel-perfect UIs, automate with AI, and scale your delivery.
+
+### Basic Access Pass
+- Creative Tim UI - 300+ shadcn/ui Blocks
+- Material Tailwind PRO
+- David UI PRO
+- Creative Tim Club (130+ Templates)
+- Roots of UI/UX Design Book PDF
+- Product Updates
+- Community Access
+[Buy Basic Access Pass](https://www.creative-tim.com/product/argon-design-system-react)
+
+### PRO AI Access Pass
+- 
+            Everything in Basic Access Pass
+- 
+            Priority Support
+- 
+            10,000 messages per month
+- 
+            Unlimited custom support agents
+- 
+            Unlimited knowledgebase data
+- 
+            500 lead generation
+- 
+            10+ AI employees for business growth
+- 
+            200+ n8n Automation Templates
+- 
+            Creative AI Pixels
+[Buy PRO AI Access Pass](https://www.creative-tim.com/product/argon-design-system-react)
+Secured Payment by Paddle. Accepted:
+If you are a registered company inside the EU you can add your VAT ID during checkout.
+
+### Frequently asked questions
+
+#### [What does "Use in Saas" refer to?](https://www.creative-tim.com/product/argon-design-system-react#1)
+[What does "Use in Saas" refer to?](https://www.creative-tim.com/product/argon-design-system-react#1)
+
+#### [What are the differences between the licenses on the website?](https://www.creative-tim.com/product/argon-design-system-react#2)
+[What are the differences between the licenses on the website?](https://www.creative-tim.com/product/argon-design-system-react#2)
+[here](https://www.creative-tim.com/knowledge-center/is-there-any-type-of-restriction-regarding-the-enterprise-license/)
+[Tech Support](https://www.creative-tim.com/knowledge-center/what-does-tech-support-include/)
+[Free Updates](https://www.creative-tim.com/knowledge-center/what-do-free-updates-mean/)
+[Team Size](https://www.creative-tim.com/knowledge-center/how-many-developers-can-access-the-product/)
+[here](https://www.creative-tim.com/license)
+
+#### [What is the difference between a Free and a Pro product?](https://www.creative-tim.com/product/argon-design-system-react#3)
+[What is the difference between a Free and a Pro product?](https://www.creative-tim.com/product/argon-design-system-react#3)
+[here](https://www.creative-tim.com/knowledge-center/what-is-the-difference-between-a-free-and-a-pro-product/)
+
+#### [How can I upgrade my license?](https://www.creative-tim.com/product/argon-design-system-react#4)
+[How can I upgrade my license?](https://www.creative-tim.com/product/argon-design-system-react#4)
+[here](https://www.creative-tim.com/knowledge-center/how-can-i-upgrade-my-license/)
+
+#### [Can I use a premium product in an open source project?](https://www.creative-tim.com/product/argon-design-system-react#5)
+[Can I use a premium product in an open source project?](https://www.creative-tim.com/product/argon-design-system-react#5)
+[here](https://www.creative-tim.com/knowledge-center/can-i-use-a-premium-product-in-an-open-source-project/)
+
+#### [Is there any type of restriction regarding the Enterprise License?](https://www.creative-tim.com/product/argon-design-system-react#6)
+[Is there any type of restriction regarding the Enterprise License?](https://www.creative-tim.com/product/argon-design-system-react#6)
+- You can’t re-distribute the Item as stock, in a tool or template, or with source files. You can’t do this with an Item either on its own or bundled with other items. You can’t re-distribute or make available the Item as-is or with superficial modifications. For example: You can’t license an item and then make it available as-is on your website for your users to download.
+- You can’t use the Item in any application allowing an end-user to customize a digital or physical product to their specific needs, such as an “on-demand”, “made to order” or “build it yourself” application. You can use the Item in this way only if you purchase a separate License for each final product incorporating the Item that is created using the application. For example: you can't create a website builder.
+
+#### [What does the number of "Projects" refer to?](https://www.creative-tim.com/product/argon-design-system-react#19)
+[What does the number of "Projects" refer to?](https://www.creative-tim.com/product/argon-design-system-react#19)
+- For example, if you purchased the Freelancer License or Startup License, you can create only one website (for you or a client). Same, if you have multiple subdomains, like "test.yoursite.com" or "dev.yoursite.com", you can use the Freelancer License or Startup License.
+- If you want to create multiple websites, you will need a bigger License (like Company or Enterprise). Same, if you have a complex application like a SaaS and have "client1.yoursite.com" and "client2.yoursite.com" and "clientx.yoursite.com", you will need a multi-domain License like Company or Enterprise.
+
+#### [How many Developers can access the product?](https://www.creative-tim.com/product/argon-design-system-react#12)
+[How many Developers can access the product?](https://www.creative-tim.com/product/argon-design-system-react#12)
+- If you purchased the Freelancer License, only you (one developer) can use the product.
+- If you purchased the Startup License, up to 5 developers (including you) can use the product.
+- If you purchased the Company License, up to 20 developers (including you) can access the product.
+- If you purchased the Enterprise License, you can work with a bigger team - more than 20 developers can access the product.
+
+### Frequently asked questions
+
+[Here are the steps to give product access to your team members](https://www.creative-tim.com/knowledge-center/how-can-i-invite-team-members-to-access-a-product/)
+
+#### [What does the "Documentation" refer to?](https://www.creative-tim.com/product/argon-design-system-react#13)
+[What does the "Documentation" refer to?](https://www.creative-tim.com/product/argon-design-system-react#13)
+
+#### [What does the "Fully Coded" refer to?](https://www.creative-tim.com/product/argon-design-system-react#14)
+[What does the "Fully Coded" refer to?](https://www.creative-tim.com/product/argon-design-system-react#14)
+
+#### [What does "Tech Support" include?](https://www.creative-tim.com/product/argon-design-system-react#15)
+[What does "Tech Support" include?](https://www.creative-tim.com/product/argon-design-system-react#15)
+
+#### [What do "Free Updates" mean?](https://www.creative-tim.com/product/argon-design-system-react#16)
+[What do "Free Updates" mean?](https://www.creative-tim.com/product/argon-design-system-react#16)
+[here](https://www.creative-tim.com/knowledge-center/what-do-free-updates-mean/)
+
+#### [If I bought a Company Bundle, but I want an Enterprise Bundle instead, what can I do?](https://www.creative-tim.com/product/argon-design-system-react#17)
+[If I bought a Company Bundle, but I want an Enterprise Bundle instead, what can I do?](https://www.creative-tim.com/product/argon-design-system-react#17)
+[[email protected]](https://www.creative-tim.com/contact-us)
+
+#### [Can I transfer my License from a company to another one?](https://www.creative-tim.com/product/argon-design-system-react#20)
+[Can I transfer my License from a company to another one?](https://www.creative-tim.com/product/argon-design-system-react#20)
+[here](https://www.creative-tim.com/knowledge-center/can-i-transfer-my-license-from-a-company-to-another-one/)
+
+## We are here to help you!
+
+#### 20 Web Developers commented on this product
+[Github](https://github.com/creativetimofficial/argon-design-system-react)
+[Docs](https://demos.creative-tim.com/argon-design-system-react/#/documentation/overview)
+[Knowledge Center](https://www.creative-tim.com/knowledge-center)
+[Custom Development](https://www.creative-tim.com/services/updivision?ref=ct-product-page)
+[Discord Server](https://discord.com/invite/FhCJCaHdQa)
+
+## Sharing is caring!
+
+[Facebook](https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/argon-design-system-react?src=sdkpreparse)
+[Twitter](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/argon-design-system-react&text=Checkout this awesome product for web developers&via=creativetim)
+[Email](https://www.creative-tim.com/cdn-cgi/l/email-protection#754a0600171f10160148361d10161e1a000155011d1c0653171a110c483d1c593c55131a001b1155011d1c0655141b1155011d1a00121d01550c1a0055181c121d0155191c1e10551c01551d010105064f5a5a0202025b16071014011c031058011c185b161a185a05071a110016015a1407121a1b581110061c121b58060c06011018580710141601)
+1. 
+            [Home](https://www.creative-tim.com/)
+
+
+
+2. 
+            [All Templates](https://www.creative-tim.com/templates)
+
+
+
+3. 
+            [Argon Design System React](https://www.creative-tim.com/product/argon-design-system-react)
+
+
+
+[Home](https://www.creative-tim.com/)
+[All Templates](https://www.creative-tim.com/templates)
+[Argon Design System React](https://www.creative-tim.com/product/argon-design-system-react)
+
+#### Choose the downloads method
+[Fork on  Github](https://github.com/creativetimofficial/argon-design-system-react/fork)
+
+#### Fork on Github
+[Zip  Download](https://www.creative-tim.com/product/argon-design-system-react)
+
+#### Zip Download
+
+#### Useful Resources
+[Product  Documentation](https://demos.creative-tim.com/argon-design-system-react/#/documentation/overview)
+
+#### Product Documentation
+[Github  Repo](https://github.com/creativetimofficial/argon-design-system-react)
+
+#### Github Repo
+[Youtube  Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
+
+#### Youtube Tutorials
+[Tailwind Blocks](https://www.material-tailwind.com/blocks?ref=download-modal)
+
+#### Tailwind Blocks
+[Get Discount](https://www.creative-tim.com/user/credit-history)
+
+#### Get Discount
+[Product  Updates](https://www.creative-tim.com/downloads)
+
+#### Product Updates
+
+#### 2,791,078 accounts
+
+#### 4,869,088 downloads
+
+#### [309 products](https://www.creative-tim.com/templates?ref=footer-ct)
+[309 products](https://www.creative-tim.com/templates?ref=footer-ct)
+Join our newsletter
+
+#### Company
+- [About Us](https://www.creative-tim.com/presentation)
+- [Github](https://github.com/creativetimofficial)
+- [Freebies](https://www.creative-tim.com/templates/free)
+- [Premium](https://www.creative-tim.com/templates/premium)
+-  [Blog](https://www.creative-tim.com/blog)
+-  [Affiliate Program](https://www.creative-tim.com/affiliates/new)
+-  [Creative Tim Club](https://www.creative-tim.com/club?ref=ct-footer)
+[About Us](https://www.creative-tim.com/presentation)
+[Github](https://github.com/creativetimofficial)
+[Freebies](https://www.creative-tim.com/templates/free)
+[Premium](https://www.creative-tim.com/templates/premium)
+[Blog](https://www.creative-tim.com/blog)
+[Affiliate Program](https://www.creative-tim.com/affiliates/new)
+[Creative Tim Club](https://www.creative-tim.com/club?ref=ct-footer)
+
+#### Help and Support
+- [Knowledge Center](https://www.creative-tim.com/knowledge-center)
+- [Contact Us](https://www.creative-tim.com/contact-us)
+- [Premium Support](https://www.creative-tim.com/support-terms)
+- [Custom Development](https://www.creative-tim.com/services/updivision?ref=ct-footer)
+-  [Terms & Conditions](https://www.creative-tim.com/knowledge-center/terms-of-service/)
+-  [Privacy Policy](https://www.creative-tim.com/knowledge-center/privacy-policy/)
+- [Licenses](https://www.creative-tim.com/license)
+- [Illustrations](https://iradesign.io)
+[Knowledge Center](https://www.creative-tim.com/knowledge-center)
+[Contact Us](https://www.creative-tim.com/contact-us)
+[Premium Support](https://www.creative-tim.com/support-terms)
+[Custom Development](https://www.creative-tim.com/services/updivision?ref=ct-footer)
+[Terms & Conditions](https://www.creative-tim.com/knowledge-center/terms-of-service/)
+[Privacy Policy](https://www.creative-tim.com/knowledge-center/privacy-policy/)
+[Licenses](https://www.creative-tim.com/license)
+[Illustrations](https://iradesign.io)
+
+#### Tailwind Resources
+-  [Admin & Dashboard](https://www.creative-tim.com/templates/tailwind-dashboard)
+-  [Templates & Kits](https://www.creative-tim.com/templates/tailwind)
+-  [React & Tailwind Framework](https://www.material-tailwind.com/?ref=ct-footer)
+-  [HTML & Tailwind Framework](https://www.material-tailwind.com/?ref=ct-footer)
+-  [Figma Design System](https://www.material-tailwind.com/figma?ref=ct-footer)
+
+## Sharing is caring!
+
+-  [TW Cheatsheet](https://www.creative-tim.com/twcomponents/cheatsheet)
+-  [TW Gradient Generator](https://www.creative-tim.com/twcomponents/gradient-generator)
+-  [TW Components](https://www.creative-tim.com/twcomponents)
+[Admin & Dashboard](https://www.creative-tim.com/templates/tailwind-dashboard)
+[Templates & Kits](https://www.creative-tim.com/templates/tailwind)
+[React & Tailwind Framework](https://www.material-tailwind.com/?ref=ct-footer)
+[HTML & Tailwind Framework](https://www.material-tailwind.com/?ref=ct-footer)
+[Figma Design System](https://www.material-tailwind.com/figma?ref=ct-footer)
+[TW Cheatsheet](https://www.creative-tim.com/twcomponents/cheatsheet)
+[TW Gradient Generator](https://www.creative-tim.com/twcomponents/gradient-generator)
+[TW Components](https://www.creative-tim.com/twcomponents)
+
+#### Developer Resources
+-  [GaliChat AI Assistant](https://www.galichat.com/?ref=ct-footer)
+-  [GPTs Collection](https://www.creative-tim.com/gpts)
+-  [ChatGPT Prompts](https://www.creative-tim.com/cheatsheet/chatgpt-prompts/)
+-  [AI Code Mentor](https://code-mentor.ai/)
+- [Digital Ocean](https://m.do.co/c/276af09d9975)
+[GaliChat AI Assistant](https://www.galichat.com/?ref=ct-footer)
+[GPTs Collection](https://www.creative-tim.com/gpts)
+[ChatGPT Prompts](https://www.creative-tim.com/cheatsheet/chatgpt-prompts/)
+[AI Code Mentor](https://code-mentor.ai/)
+[Digital Ocean](https://m.do.co/c/276af09d9975)
+
+#### Login with
+[create an account](javascript: showRegisterForm();)
+[Forgot password](https://www.creative-tim.com/forgot-password)
+[Login](javascript: showLoginForm();)

@@ -1,0 +1,102 @@
+/* Custom Styles for AI Code Review Platform */
+
+/* Layout */
+.main-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+}
+
+/* Landing Page */
+.landing-page .hero-section {
+    min-height: 100vh;
+}
+
+.landing-page .hero-image {
+    text-align: center;
+}
+
+.landing-page .icon-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Dashboard */
+.dashboard-page .icon-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Login Page */
+.login-page {
+    background: linear-gradient(87deg, #5e72e4 0, #825ee4 100%);
+}
+
+/* Footer */
+.footer {
+    margin-top: auto;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Loading Spinner */
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Responsive Utilities */
+@media (max-width: 991px) {
+    .navbar-collapse {
+        margin-top: 1rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+
+    .navbar,
+    .footer,
+    .btn {
+        display: none;
+    }
+}

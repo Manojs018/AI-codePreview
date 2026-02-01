@@ -1,0 +1,34 @@
+{
+  "name": "ai-code-review-platform",
+  "version": "1.0.0",
+  "description": "AI-Powered Code Review & Developer Productivity Platform",
+  "private": true,
+  "workspaces": [
+    "services/*",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:gateway\" \"npm run dev:auth\" \"npm run dev:github\" \"npm run dev:analysis\" \"npm run dev:ai\" \"npm run dev:feedback\" \"npm run dev:analytics\" \"npm run dev:frontend\"",
+    "dev:gateway": "cd services/api-gateway && npm run dev",
+    "dev:auth": "cd services/auth-service && npm run dev",
+    "dev:github": "cd services/github-service && npm run dev",
+    "dev:analysis": "cd services/code-analysis && npm run dev",
+    "dev:ai": "cd services/ai-review && npm run dev",
+    "dev:feedback": "cd services/feedback-publisher && npm run dev",
+    "dev:analytics": "cd services/analytics && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "db:migrate": "cd services/api-gateway && npm run migrate",
+    "db:seed": "cd services/api-gateway && npm run seed"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}

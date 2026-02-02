@@ -8,6 +8,7 @@ import App from './App';
 // Argon Design System styles
 import './assets/css/argon-design-system.css';
 import './assets/css/custom.css';
+import './assets/css/theme-dark.css'; // New Flux Dark Theme
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement

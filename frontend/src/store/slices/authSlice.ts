@@ -33,35 +33,16 @@ const initialState: AuthState = {
 
 // Async thunks
 export const checkAuth = createAsyncThunk('auth/checkAuth', async (_, { rejectWithValue }) => {
-    try {
-        const token = localStorage.getItem('token');
-        if (!token) {
-            return rejectWithValue('No token found');
-        }
-
-        // If it's a demo token, return mock user
-        if (token === 'demo-token') {
-            return {
-                id: 'demo-user-123',
-                github_id: 12345,
-                username: 'DemoUser',
-                email: 'demo@example.com',
-                role: 'developer',
-                avatar_url: 'https://ui-avatars.com/api/?name=Demo+User&background=random',
-                created_at: new Date().toISOString()
-            };
-        }
-
-        const response = await axios.get(`${API_URL}/api/auth/me`, {
-            headers: { Authorization: `Bearer ${token}` },
-        });
-
-        return response.data.data;
-    } catch (error: any) {
-        localStorage.removeItem('token');
-        localStorage.removeItem('refreshToken');
-        return rejectWithValue(error.response?.data?.error || 'Authentication failed');
-    }
+    // FORCE PREVIEW MODE: Always return mock user
+    return {
+        id: 'demo-user-123',
+        github_id: 12345,
+        username: 'PreviewUser',
+        email: 'demo@example.com',
+        role: 'developer' as const,
+        avatar_url: 'https://ui-avatars.com/api/?name=Preview+User&background=random',
+        created_at: new Date().toISOString()
+    };
 });
 
 export const login = createAsyncThunk(

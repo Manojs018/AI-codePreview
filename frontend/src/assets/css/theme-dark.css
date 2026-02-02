@@ -1,0 +1,311 @@
+/* Flux Dark Theme - Override System */
+:root {
+    /* Core Colors */
+    --bg-body: #1e1e2f;
+    --bg-card: #27293d;
+    --bg-sidebar: #1a1a2e;
+
+    /* Text */
+    --text-main: #ffffff;
+    --text-muted: #9a9a9a;
+
+    /* Accents */
+    --primary: #3358f4;
+    --primary-glow: rgba(51, 88, 244, 0.4);
+    --success: #00f2c3;
+    --danger: #fd5d93;
+    --warning: #ff8d72;
+    --info: #1d8cf8;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(0deg, #3358f4 0%, #1d8cf8 100%);
+    --sidebar-gradient: linear-gradient(0deg, #ba54f5 0%, #e14eca 100%);
+    /* Optional if we want that purple top */
+
+    /* Bootstrap Overrides */
+    --bs-body-bg: var(--bg-body);
+    --bs-body-color: var(--text-main);
+    --bs-card-bg: var(--bg-card);
+    --bs-card-border-width: 0;
+}
+
+body {
+    background-color: var(--bg-body) !important;
+    color: var(--text-main) !important;
+    font-family: 'Inter', 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-body);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3c3f58;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+}
+
+/* Card Styling */
+.card {
+    background-color: var(--bg-card) !important;
+    box-shadow: 0 1px 20px 0px rgba(0, 0, 0, 0.1) !important;
+    border: none !important;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100%;
+}
+
+.card .card-header {
+    background-color: transparent !important;
+    border-bottom: none !important;
+    padding: 15px 20px 0;
+}
+
+.card .card-title {
+    color: var(--text-muted);
+    margin-bottom: 5px;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.card h2,
+.card h3 {
+    color: var(--text-main);
+    font-weight: 600;
+}
+
+/* Sidebar Wrapper */
+.wrapper {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.sidebar-wrapper {
+    width: 260px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: var(--bg-sidebar);
+    background: linear-gradient(180deg, var(--bg-sidebar) 0%, #171825 100%);
+    transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.6);
+    padding: 20px 0;
+}
+
+.main-panel {
+    width: calc(100% - 260px);
+    background-color: var(--bg-body);
+    min-height: 100vh;
+    margin-left: 260px;
+    position: relative;
+    float: right;
+    transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    padding: 20px;
+}
+
+/* Sidebar Branding */
+.sidebar-brand {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar-brand h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: var(--text-main);
+}
+
+/* Navigation Items */
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-nav li {
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+
+.sidebar-nav li a {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    font-size: 14px;
+    color: var(--text-muted);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+
+.sidebar-nav li a i {
+    font-size: 18px;
+    margin-right: 15px;
+    min-width: 20px;
+    text-align: center;
+}
+
+.sidebar-nav li.active a,
+.sidebar-nav li a:hover {
+    background: transparent;
+    /* No block bg for premium feel */
+    color: var(--text-main);
+}
+
+/* The "Glow" indicator for active state */
+.sidebar-nav li.active a i {
+    color: var(--primary);
+    text-shadow: 0 0 10px var(--primary-glow);
+}
+
+.sidebar-nav li.active a {
+    position: relative;
+}
+
+.sidebar-nav li.active a:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    bottom: 10px;
+    width: 3px;
+    background: var(--primary);
+    box-shadow: 0 0 10px var(--primary);
+    border-radius: 0 3px 3px 0;
+}
+
+/* Navbar (Top) */
+.navbar-top {
+    background: transparent !important;
+    position: absolute;
+    /* Floats on top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 90;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-search .form-control {
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    color: var(--text-main);
+    padding-left: 10px;
+}
+
+.navbar-search .form-control:focus {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--primary);
+}
+
+/* Tables */
+.table {
+    color: var(--text-muted) !important;
+}
+
+.table thead th {
+    border-top: none !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.table td {
+    border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Utility Overrides */
+.text-muted {
+    color: var(--text-muted) !important;
+}
+
+.bg-white {
+    background-color: var(--bg-card) !important;
+}
+
+.text-dark {
+    color: var(--text-main) !important;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+/* Neon Progress Bars */
+.progress {
+    background-color: rgba(255, 255, 255, 0.1);
+    overflow: visible;
+}
+
+.progress-bar {
+    position: relative;
+    border-radius: 4px;
+}
+
+.progress-bar.bg-primary {
+    background: var(--primary) !important;
+    box-shadow: 0 0 10px var(--primary-glow);
+}
+
+.progress-bar.bg-info {
+    background: var(--info) !important;
+    box-shadow: 0 0 10px rgba(29, 140, 248, 0.4);
+}
+
+.progress-bar.bg-success {
+    background: var(--success) !important;
+    box-shadow: 0 0 10px rgba(0, 242, 195, 0.4);
+}
+
+.progress-bar.bg-danger {
+    background: var(--danger) !important;
+    box-shadow: 0 0 10px rgba(253, 93, 147, 0.4);
+}
+
+/* Form Controls */
+.form-control {
+    background-color: #1b1c30 !important;
+    border: 1px solid #2b3553 !important;
+    color: #ffffff !important;
+    transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    background-color: #1b1c30 !important;
+    border-color: var(--primary) !important;
+    box-shadow: none !important;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, 0.4) !important;
+    opacity: 1;
+    /* Firefox */
+}
